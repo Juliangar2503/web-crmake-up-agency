@@ -15,7 +15,7 @@ Este proyecto tiene como objetivo modernizar y animar la página web de [CR Make
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/cr-make-up-agency.git
+   git@github.com:Juliangar2503/web-crmake-up-agency.git
 
 2. Instala las dependencias::
 
