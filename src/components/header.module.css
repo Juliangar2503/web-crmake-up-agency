@@ -1,0 +1,63 @@
+/* Header.module.css */
+
+/* General */
+.myHeader {
+  display: flex;            /* Activamos Flexbox */
+  justify-content: center;   /* Centramos horizontalmente */
+  align-items: center;       /* Centramos verticalmente */
+  flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
+  padding: 40px;
+  height: 100px;            /* Ajustamos la altura según el diseño */
+}
+
+.container{
+  width: 100%;
+  display: flex;            /* Activamos Flexbox */
+  justify-content: center;   /* Centramos horizontalmente */
+  align-items: center;       /* Centramos verticalmente */
+  flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
+  padding: 20px;
+  border-bottom: 2px solid black; /* Línea negra en la parte inferior */
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  bottom: 18px; /* Coloca el logo en la parte inferior */
+
+}
+
+.principalNav {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos del menú */
+}
+
+.myLink a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.myLink:hover {
+  color: #ff4081; /* Color al hacer hover */
+}
+
+/* Logo */
+.myheader div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+  .principalNav {
+    display: none; /* Oculta el menú en móviles */
+  }
+
+}
