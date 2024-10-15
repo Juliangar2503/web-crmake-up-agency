@@ -13,7 +13,6 @@
 .container{
   width: 100%;
   display: flex;            /* Activamos Flexbox */
-  justify-content: center;   /* Centramos horizontalmente */
   align-items: center;       /* Centramos verticalmente */
   flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
   padding: 20px;

@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <div className={styles.container}>
         
         <div>
-          <nav className={styles.principalNav}>
+        <nav className="hidden md:flex space-x-8  justify-center ">
             {navItems.map((item, index) => (
               <Link key={index} href={item.path} className={styles.myLink}>
                 {item.name}
@@ -25,8 +25,8 @@ const Header: React.FC = () => {
             ))}
           </nav>
         </div>
-        <div>
-          <button className="block md:hidden">MENU</button>
+        <div  className="flex justify-end">
+          <button className="flex md:hidden justify-end">MENU</button>
         </div>
       </div>
       <div className={styles.logo}>LOGO</div>
