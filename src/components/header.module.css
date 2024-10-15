@@ -7,7 +7,10 @@
   align-items: center;       /* Centramos verticalmente */
   flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
   padding: 40px;
-  height: 100px;            /* Ajustamos la altura según el diseño */
+  height: 150px;            /* Ajustamos la altura según el diseño */
+  
+  background-color: rgba(128, 0, 128, 0.048); /* Púrpura con 20% de opacidad */
+  
 }
 
 .container{
@@ -15,7 +18,7 @@
   display: flex;            /* Activamos Flexbox */
   align-items: center;       /* Centramos verticalmente */
   flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
-  padding: 20px;
+  padding: 40px;
   border-bottom: 2px solid black; /* Línea negra en la parte inferior */
 }
 
@@ -25,7 +28,7 @@
   font-weight: bold;
   color: white;
   position: relative;
-  bottom: 18px; /* Coloca el logo en la parte inferior */
+  bottom: 40px; /* Coloca el logo en la parte inferior */
 
 }
 
@@ -34,15 +37,12 @@
   gap: 20px; /* Espacio entre los elementos del menú */
 }
 
-.myLink a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
+.myLink{
+  margin-top: 20px;
 }
 
 .myLink:hover {
-  color: #ff4081; /* Color al hacer hover */
+  border-top: 4px solid rgba(100, 0, 50, 0.61);
 }
 
 /* Logo */
