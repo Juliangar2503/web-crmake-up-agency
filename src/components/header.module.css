@@ -6,8 +6,8 @@
   justify-content: center;   /* Centramos horizontalmente */
   align-items: center;       /* Centramos verticalmente */
   flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
-  padding: 20px;
-  height: 100px;            /* Ajustamos la altura según el diseño */
+  padding: 30px;
+  height: 120px;            /* Ajustamos la altura según el diseño */
   
   background-color: rgba(128, 0, 128, 0.048); /* Púrpura con 20% de opacidad */
   
@@ -22,7 +22,6 @@
   flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
   padding: 80px;
   border-bottom: 2px solid rgb(250, 250, 250); /* Línea blanca en la parte inferior */
-  margin-top: 70px;
   border-image: linear-gradient(to right, rgb(255, 255, 255) 30%, transparent 50%, rgb(255, 255, 255) 65%) 1;
 
 }
@@ -32,14 +31,14 @@
   
   justify-content: center;
   position: relative;
-  bottom: 75px; /* Coloca el logo en la parte inferior */
+  bottom: 30px; /* Coloca el logo en la parte inferior */
 
 
 }
 
 .principalNav {
   display: flex;
-  gap: 150px; /* Espacio entre los elementos del menú */
+  gap: 100px; /* Espacio entre los elementos del menú */
 
   
 }
