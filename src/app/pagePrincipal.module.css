@@ -1,0 +1,7 @@
+.ClaimPrincipal{
+    color: white;
+    display: flex;
+    justify-content: center;   /* Centramos horizontalmente */
+    align-items: center; 
+    padding-top: 20px;
+}

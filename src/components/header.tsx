@@ -6,10 +6,10 @@ import Image from "next/image";
 
 // Lista de elementos de navegación
 const navItems = [
-  { name: '/images/cr-name.png', path: '/cristina-rivero' },
-  { name: '/images/servicios.png', path: '/servicios' },
-  { name: '/images/portfolio.png', path: '/portfolio' },
-  { name: '/images/contacto.png', path: '/contacto' },
+  { name: 'Cristina Rivero', path: '/cristina-rivero' },
+  { name: 'Servicios', path: '/servicios' },
+  { name: 'Portfolio', path: '/portfolio' },
+  { name: 'Contacto', path: '/contacto' },
 ];
 
 const Header: React.FC = () => {
@@ -18,10 +18,10 @@ const Header: React.FC = () => {
       <div className={styles.container}>
         
         <div>
-        <nav className="hidden md:flex space-x-8  justify-center ">
+        <nav className={styles.principalNav}>
             {navItems.map((item, index) => (
               <Link key={index} href={item.path} className={styles.myLink}>
-                <Image src={item.name} alt="Logo Cristina Rivero" width={200} height={100} />
+                {item.name}
               </Link>
             ))}
           </nav>
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       <div className={styles.logo}>
-        <Image src="/icons/logo-cristina-rivero.svg" alt="Logo Cristina Rivero" width={100} height={100} />
+        <Image src="/icons/LogoBueno.png" alt="Logo Cristina Rivero" width={300} height={300} />
       </div>
     </header>
   );
