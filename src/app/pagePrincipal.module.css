@@ -1,7 +1,27 @@
-.ClaimPrincipal{
-    color: white;
+.ClaimPrincipal {
     display: flex;
-    justify-content: center;   /* Centramos horizontalmente */
-    align-items: center; 
-    padding-top: 20px;
+    flex-direction: column;
+    /* Los elementos hijos estarán en una sola columna */
+    align-items: center;
+    /* Centrar horizontalmente */
+    justify-content: center;
+    /* Centrar verticalmente */
+    padding: 20px;
+}
+
+.logoContainer {
+    display: flex;            /* Activamos Flexbox */
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    height: 85vh;             /* Ocupa el 100% de la altura de la ventana */
+    width: 90vw;              /* Ocupa el 100% del ancho de la ventana */
+    background-color: black;   /* Color de fondo si deseas uno */
+  }
+
+.galeriaContainer {
+    background-color: rgb(160, 0, 0);
+    height: 90vh;
+    /* Ocupa toda la altura de la ventana */
+    width: 90vw;
+    /* Ocupa todo el ancho de la ventana */
 }
