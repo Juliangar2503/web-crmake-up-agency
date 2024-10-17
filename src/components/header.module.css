@@ -1,0 +1,72 @@
+/* Header.module.css */
+
+/* General */
+.myHeader {
+  display: flex;            /* Activamos Flexbox */
+  justify-content: center;   /* Centramos horizontalmente */
+  align-items: center;       /* Centramos verticalmente */
+  flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
+  padding: 20px;
+  height: 100px;            /* Ajustamos la altura según el diseño */
+  
+  background-color: rgba(128, 0, 128, 0.048); /* Púrpura con 20% de opacidad */
+  
+  
+}
+
+.container{
+  height: 100px;
+  width: 100%;
+  display: flex;            /* Activamos Flexbox */
+  align-items: center;       /* Centramos verticalmente */
+  flex-direction: column;    /* Colocamos los elementos en columna (si es necesario) */
+  padding: 80px;
+  border-bottom: 2px solid rgb(250, 250, 250); /* Línea blanca en la parte inferior */
+  margin-top: 70px;
+  border-image: linear-gradient(to right, rgb(255, 255, 255) 30%, transparent 50%, rgb(255, 255, 255) 65%) 1;
+
+}
+
+/* Logo */
+.logo {
+  
+  justify-content: center;
+  position: relative;
+  bottom: 75px; /* Coloca el logo en la parte inferior */
+
+
+}
+
+.principalNav {
+  display: flex;
+  gap: 150px; /* Espacio entre los elementos del menú */
+
+  
+}
+
+.myLink{
+  margin-top: 20px;
+  color: white;
+  
+  
+}
+
+.myLink:hover {
+  border-top: 4px solid rgba(100, 0, 50, 0.61);
+}
+
+/* Logo */
+.myheader div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+  .principalNav {
+    display: none; /* Oculta el menú en móviles */
+  }
+
+}
