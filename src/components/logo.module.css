@@ -1,7 +1,33 @@
 .logoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInUp 3s ease-out;
+}
+
+.imgLogo {
+  animation: fadeInUp 2s ease-out;
+  margin-bottom: 1rem;
+}
+
+.stringLogo {
+  text-align: center;
+  animation: fadeInUp 2s ease-out 0.7s; /* Retraso para el texto */
+}
+
+.stringLogo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
