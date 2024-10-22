@@ -10,7 +10,7 @@ export default function Home() {
         <Logo></Logo>
       </div>
       <div className={styles.galeriaContainer}>
-      <WeAre></WeAre>
+        <WeAre></WeAre>
       </div>
     </div>
   );

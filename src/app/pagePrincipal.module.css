@@ -19,7 +19,7 @@
   }
 
 .galeriaContainer {
-    background-color: rgb(160, 0, 0);
+    /* background-color: rgb(160, 0, 0); */
     height: 90vh;
     /* Ocupa toda la altura de la ventana */
     width: 90vw;
